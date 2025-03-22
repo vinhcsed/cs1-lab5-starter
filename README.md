@@ -59,6 +59,12 @@ Would you like to play again? (Y for yes, other key to quit): Y
 
 ELEMENTS: AIR (A), WATER (W), EARTH (E), FIRE (F)
 Select your element: F
+You chose FIRE. Your opponent chose AIR. FIRE burns AIR.
+You win!
+Would you like to play again? (Y for yes, other key to quit): Y
+
+ELEMENTS: AIR (A), WATER (W), EARTH (E), FIRE (F)
+Select your element: F
 You chose FIRE. Your opponent chose WATER. WATER extinguishes FIRE.
 You lose!
 Would you like to play again? (Y for yes, other key to quit): Y
