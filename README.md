@@ -16,16 +16,17 @@
 * Implement this program in `main.cpp`.
 * This program will be a variation on the classic game Rock, Paper, Scissors.
 * There are four choices: Air, Water, Earth, or Fire
-   - Air *gusts* Earth
-   - Water *extinguishes* Fire
-   - Earth *absorbs* Water
-   - Fire *burns* Air
-   - An element draws with itself
+* The elements interact as follows:
+   - Air *gusts* Earth (Air wins)
+   - Water *extinguishes* Fire (Water wins)
+   - Earth *absorbs* Water (Earth wins)
+   - Fire *burns* Air (Fire wins)
+   - For all other interactions, the match ends in a draw
 * *Continuously* display a menu of options and prompt the user to make a selection.
    - `A` for Air, `W` for Water, `E` for Earth, `F` for Fire
    - The user should be continuously prompted until they make a valid selection
 * After the user has made their selection, the program should **randomly** select another element.
-   - Randomness can be accomplished using `rand()` and `srand()` from the `<cstdlib>` library
+   - Randomness can be accomplished using `rand()` and `srand()` from the `<cstdlib>` library in combination with `time()` from the `<ctime>` library
 * Output a message to the terminal determining if the user has won or lost the match.
 * Lastly, after the winner is determined, the user should select whether or not to play again.
    - `Y` to play again, or any other key to quit
