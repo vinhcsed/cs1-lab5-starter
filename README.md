@@ -45,22 +45,41 @@ This starter code includes function prototypes to help you get started. Each of 
 #### Example
 ```
 ELEMENTS: AIR (A), WATER (W), EARTH (E), FIRE (F)
-Select your element: A
-You chose AIR. Your opponent chose AIR.
+Select your element: G    
+Invalid selection, try again: X
+Invalid selection, try again: O
+Invalid selection, try again: A
+You chose AIR. Your opponent chose WATER. Nothing happens.
 Draw!
 Would you like to play again? (Y for yes, other key to quit): Y
 
 ELEMENTS: AIR (A), WATER (W), EARTH (E), FIRE (F)
-Select your element: X
-Invalid selection, try again: Y
-Invalid selection, try again: A
-You chose AIR. Your opponent chose EARTH. AIR gusts EARTH.
-You win!
+Select your element: A
+You chose AIR. Your opponent chose WATER. Nothing happens.
+Draw!
 Would you like to play again? (Y for yes, other key to quit): Y
 
 ELEMENTS: AIR (A), WATER (W), EARTH (E), FIRE (F)
-Select your element: F
-You chose FIRE. Your opponent chose AIR. FIRE burns AIR.
+Select your element: A
+You chose AIR. Your opponent chose FIRE. FIRE burns AIR.
+You lose!
+Would you like to play again? (Y for yes, other key to quit): Y
+
+ELEMENTS: AIR (A), WATER (W), EARTH (E), FIRE (F)
+Select your element: W
+You chose WATER. Your opponent chose AIR. Nothing happens.
+Draw!
+Would you like to play again? (Y for yes, other key to quit): Y
+
+ELEMENTS: AIR (A), WATER (W), EARTH (E), FIRE (F)
+Select your element: W
+You chose WATER. Your opponent chose WATER. Nothing happens.
+Draw!
+Would you like to play again? (Y for yes, other key to quit): Y
+
+ELEMENTS: AIR (A), WATER (W), EARTH (E), FIRE (F)
+Select your element: E
+You chose EARTH. Your opponent chose WATER. EARTH absorbs WATER.
 You win!
 Would you like to play again? (Y for yes, other key to quit): Y
 
@@ -71,15 +90,9 @@ You lose!
 Would you like to play again? (Y for yes, other key to quit): Y
 
 ELEMENTS: AIR (A), WATER (W), EARTH (E), FIRE (F)
-Select your element: E
-You chose EARTH. Your opponent chose WATER. EARTH absorbs WATER.
+Select your element: F
+You chose FIRE. Your opponent chose AIR. FIRE burns AIR.
 You win!
-Would you like to play again? (Y for yes, other key to quit): Y
-
-ELEMENTS: AIR (A), WATER (W), EARTH (E), FIRE (F)
-Select your element: E
-You chose WATER. Your opponent chose EARTH. EARTH absorbs WATER.
-You lose!
 Would you like to play again? (Y for yes, other key to quit): Q
 ```
 
